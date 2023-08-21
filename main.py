@@ -51,7 +51,7 @@ def split_audio(input_path, output_path, max_duration):
 
 if __name__ == "__main__":
     if len(sys.argv) > 0:
-        youtube_url = sys.argv[0]
+        youtube_url = sys.argv[1]
         output_directory = "dataset/"
 
         download_video(youtube_url, output_directory)
